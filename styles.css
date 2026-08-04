@@ -491,6 +491,14 @@ textarea {
   background: var(--background);
 }
 
+.gallery-card {
+    min-width: 0;
+}
+
+.before-after {
+    width: 100%;
+}
+
   /* ===========================
      Before/After
 =========================== */
