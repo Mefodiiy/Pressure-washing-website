@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | Q’s Pressure Washing LLC</title>
+
+  <meta
+    name="description"
+    content="Contact Q’s Pressure Washing LLC for a free pressure washing, soft washing, commercial cleaning or kitchen hood cleaning estimate."
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Q’s Pressure Washing LLC logo" />
+        <span>Q’s Pressure Washing LLC</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Open navigation">
+        ☰
+      </button>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+
+      <a class="btn primary header-quote" href="contact.html">
+        Get a Free Quote
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact Us</p>
+        <h1>Get a Free Quote</h1>
+        <p>
+          Fill out the form below and provide information about the property or
+          service you need.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="card form-card">
+          <h2>Send a Quote Request</h2>
+
+          <form action="https://formspree.io/f/xblnazye" method="POST">
+            <input
+              type="hidden"
+              name="_subject"
+              value="New quote request from Qpressurewash.com"
+            />
+
+            <label for="name">Name</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              autocomplete="name"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              autocomplete="email"
+              required
+            />
+
+            <label for="phone">Phone Number</label>
+            <input
+              id="phone"
+              type="tel"
+              name="phone"
+              autocomplete="tel"
+              required
+            />
+
+            <label for="customer-type">Customer Type</label>
+            <select id="customer-type" name="customer_type" required>
+              <option value="">Select one</option>
+              <option value="Residential">Residential</option>
+              <option value="Commercial">Commercial</option>
+              <option value="Restaurant or commercial kitchen">
+                Restaurant or commercial kitchen
+              </option>
+              <option value="Property management or HOA">
+                Property management or HOA
+              </option>
+              <option value="Other">Other</option>
+            </select>
+
+            <label for="service">Service Needed</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option value="Residential pressure washing">
+                Residential pressure washing
+              </option>
+              <option value="Soft washing">Soft washing</option>
+              <option value="Roof cleaning">Roof cleaning</option>
+              <option value="Commercial pressure washing">
+                Commercial pressure washing
+              </option>
+              <option value="Kitchen exhaust hood cleaning">
+                Kitchen exhaust hood cleaning
+              </option>
+              <option value="Restaurant cleaning">
+                Restaurant cleaning
+              </option>
+              <option value="Concrete cleaning">Concrete cleaning</option>
+              <option value="Deck or fence cleaning">
+                Deck or fence cleaning
+              </option>
+              <option value="Gutter cleaning">Gutter cleaning</option>
+              <option value="Maintenance program">
+                Maintenance program
+              </option>
+              <option value="Other">Other</option>
+            </select>
+
+            <label for="address">Property Address or Service Area</label>
+            <input
+              id="address"
+              type="text"
+              name="address"
+              placeholder="Street address, city or neighborhood"
+            />
+
+            <label for="preferred-contact">Preferred Contact Method</label>
+            <select id="preferred-contact" name="preferred_contact">
+              <option value="Phone call">Phone call</option>
+              <option value="Text message">Text message</option>
+              <option value="Email">Email</option>
+            </select>
+
+            <label for="message">Project Details</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Describe what needs to be cleaned, the type of property, approximate size, stains or buildup, and when you would like the work completed."
+            ></textarea>
+
+            <button class="btn primary full-width" type="submit">
+              Send Quote Request
+            </button>
+          </form>
+        </div>
+
+        <aside class="contact-sidebar">
+          <div class="card">
+            <h2>Contact Information</h2>
+
+            <div class="contact-item">
+              <strong>Phone</strong>
+              <a href="tel:2537530871">253-753-0871</a>
+            </div>
+
+            <div class="contact-item">
+              <strong>Email</strong>
+              <a href="mailto:C.quintanilla427@gmail.com">
+                C.quintanilla427@gmail.com
+              </a>
+            </div>
+
+            <div class="contact-item">
+              <strong>Business</strong>
+              <span>Q’s Pressure Washing LLC</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2>Services</h2>
+
+            <ul class="check-list">
+              <li>Residential pressure washing</li>
+              <li>Soft washing and roof cleaning</li>
+              <li>Commercial property cleaning</li>
+              <li>Concrete and surface cleaning</li>
+              <li>Kitchen exhaust hood cleaning</li>
+              <li>Maintenance programs</li>
+            </ul>
+          </div>
+
+          <div class="card contact-call-card">
+            <h2>Prefer to Call?</h2>
+            <p>Call directly to discuss the project.</p>
+
+            <a class="btn primary full-width" href="tel:2537530871">
+              Call 253-753-0871
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Q’s Pressure Washing LLC</h3>
+        <p>Exterior cleaning and kitchen exhaust hood cleaning services.</p>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <p>
+          <a href="tel:2537530871">253-753-0871</a><br />
+          <a href="mailto:C.quintanilla427@gmail.com">
+            C.quintanilla427@gmail.com
+          </a>
+        </p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <p>
+          <a href="services.html">Services</a><br />
+          <a href="gallery.html">Gallery</a><br />
+          <a href="about.html">About</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <small>
+        © <span id="year"></span> Q’s Pressure Washing LLC. All rights reserved.
+      </small>
+    </div>
+  </footer>
+
+  <a class="mobile-call-button" href="tel:2537530871">Call Now</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
